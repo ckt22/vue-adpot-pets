@@ -3,10 +3,8 @@
     <h1>Adopt a new best friend.</h1>
    <h5>Total no. of Animals ready for Adoption: {{ animalsCount }}</h5>
       <h3>
-        <font-awesome-icon icon="cat"/>
-        {{ getAllCats.length }} +
-        <font-awesome-icon icon="dog"/>
-        {{ getAllDogs.length }}
+        {{ getAllCats.length }} Cats +
+        {{ getAllDogs.length }} Dogs
       </h3>
     <button @click="togglePetForm" class="btn btn-primary">Add New Pet</button>
 
